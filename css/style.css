@@ -124,7 +124,6 @@ img {
 section{
     display: inline-block;
     margin-top: 80px;
-    border: 1px solid black;
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
@@ -150,4 +149,31 @@ section h2{
     width: 30%;
     padding: 20px;
     margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden-text{
+    display: none;
+}
+
+.card:hover{
+    background: #FF2978;
+    color: #ffffff;
+    padding: 40px;  
+}
+
+
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .hidden-text{
+    display: block;
 }
