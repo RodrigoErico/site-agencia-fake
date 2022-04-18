@@ -48,7 +48,7 @@ body{
 #button {
     background: #180F4A;
     padding: 10px 25px;
-    color: white;
+    color: #ffffff;
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
@@ -93,7 +93,7 @@ h2{
 }
 
 .headline p{
-    color: gray;
+    color: #808080;
     text-align: left;
 }
 
@@ -101,7 +101,7 @@ h2{
     display: inline-block;
     background: #FF2978;
     padding: 20px;
-    color: white;
+    color: #ffffff;
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
@@ -119,4 +119,35 @@ h2{
 
 img {
     max-width: 90%;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+.services{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
 }
