@@ -62,7 +62,6 @@ body{
 .header{
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
     background: gray;
 }
 
@@ -74,4 +73,9 @@ body{
 .img-headline{
     margin-right: 10%;
     flex: 40%;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
 }
