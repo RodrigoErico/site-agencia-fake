@@ -19,7 +19,7 @@ body{
 .logo{
     flex: 20%;
     margin-left: 10%;
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1{
@@ -64,7 +64,7 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background: gray;
+    background: #ffffff;
 }
 
 .headline{
@@ -91,6 +91,26 @@ h2{
     color: #180F4A;
     
 }
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #180F4A;
+}
+
 .img-headline{
     margin-right: 10%;
     flex: 40%;
