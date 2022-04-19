@@ -59,7 +59,7 @@ body{
     background: #FF2978;
 }
 
-.header{
+.header-main{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -93,13 +93,13 @@ h2{
 }
 
 .headline p{
-    color: #808080;
+    color: #0e0e0e;
     text-align: left;
 }
 
 .contact-btn{
     display: inline-block;
-    background: #FF2978;
+    background: #180F4A;
     padding: 20px;
     color: #ffffff;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ h2{
 }
 
 .contact-btn:hover{
-    background: #180F4A;
+    background: #FF2978;
 }
 
 .img-headline{
@@ -154,6 +154,10 @@ section h2{
     cursor: pointer;
 }
 
+.icon{
+    width: 70px;
+    height: 70px;
+}
 .hidden-text{
     display: none;
 }
